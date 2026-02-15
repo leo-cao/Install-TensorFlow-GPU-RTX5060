@@ -4,7 +4,7 @@
 
 This articel describes how to install TensorFlow-GPU on Windows 11 with **NVIDIA GeForce RTX 5060** by Anaconda distribution.
 
-## 0.Installation Environment
+## 0. Installation Environment
 - **Hardware:**
     - **CPU:** Intel CORE Ultra 7
     - **Memory:** 32 GiB
@@ -16,7 +16,7 @@ This articel describes how to install TensorFlow-GPU on Windows 11 with **NVIDIA
   - **IDE:** Anaconda
   - **Language:** Python 3.7 (even though the Python version 3.7 is old, it is compatible with Tensorflow-GPU 2.4.0 on Windows 11)
 
-## 1.Installation Preparation
+## 1. Installation Preparation
 
 ### 1.1 Installing GPU Drivers
 
@@ -69,7 +69,7 @@ conda 26.1.0
 ```
 
 
-## 2.TensorFlow-GPU Installation
+## 2. TensorFlow-GPU Installation
 
 ### 2.1 Check TensorFlow Capability 
 
