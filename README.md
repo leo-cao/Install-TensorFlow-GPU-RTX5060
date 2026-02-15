@@ -160,7 +160,7 @@ import tensorflow as tf
 tf.test.gpu_device_name()
 ```
 
-The output should confirm the `NVIDIA GeForce RTX 5060', appearing similar to this:
+The output should confirm the **NVIDIA GeForce RTX 5060**, appearing similar to this:
 
 ```Plaintext 
 Successfully opened dynamic library cudart64_110.dll
