@@ -137,7 +137,6 @@ Install the specific TensorFlow whell file sing `pip`.
 
 ``` =
 pip install https://mirrors.aliyun.com/pypi/packages/ea/9a/68f5b2dad5293a505d7d66f47ee9be4061fff0b88511aa5a1b38941a12d5/tensorflow_gpu-2.4.0-cp37-cp37m-win_amd64.whl
-
 ```
 
 ## 3. Verification
