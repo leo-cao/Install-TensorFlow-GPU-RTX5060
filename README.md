@@ -1,6 +1,6 @@
 ## Installing TensorFlow-GPU on Windows 11 with NVIDIA GeForce RTX 5060 by Anaconda
 
-By Leo Cao | Version 1.0 | February 15, 2026
+> By Leo Cao | Version 1.0 | February 15, 2026
 
 This articel describes how to install TensorFlow-GPU on Windows 11 with **NVIDIA GeForce RTX 5060** by Anaconda distribution.
 
@@ -18,14 +18,16 @@ This articel describes how to install TensorFlow-GPU on Windows 11 with **NVIDIA
 
 ### 1.Installation Preparation
 
+#### 1.1 Installing GPU Drivers
+
 Download the appropriate NVIDIA drivers from the official NVIDIA website (https://www.nvidia.com/en-us/drivers/), Generally, you should choose one of the following based on your primary use case:
 - **GeForce Game Ready Driver:** OPtimized for the latest games.
 - **NVIDIA Studio Driver:** Optimized for stability in creative and scienctific applications (often preferred for Deep Learning).
   
-After intallation, verify the drivers are functioning properly using the `nvidia-smi` command in your terminal (COmmand Prompt):
+After intallation, verify the drivers are functioning properly using the `nvidia-smi` command in your terminal (Command Prompt):
 
 
-```
+```=
 nvidia-smi
 ```
 
@@ -53,7 +55,24 @@ WEEKDAY MONTH DAY HH:MM:SS YYYY
 +-----------------------------------------------------------------------------------------+
 ```
 
-### 2.TansorFlow-GPU Installation
+#### 1.1 Anaconda 
+
+Downlaod Anaconda Distribution or Miniconda from official Anaconda website (https://www.anaconda.com/download/), and install it.
+Verify conda works correctly using the `conda --version` command in your **Ananconda PowerShell Prompt** or **Anaconda Prompt**.
+```=
+conda --version
 ```
+
+The output should display you conda version, similar to the information below:
+```
+conda 26.1.0
+```
+
+### 2.TansorFlow-GPU Installation
+
+
+
+
+```bash =
 conda create -n tf1 python-3.7
 ```
