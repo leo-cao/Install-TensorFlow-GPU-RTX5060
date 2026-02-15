@@ -55,7 +55,7 @@ WEEKDAY MONTH DAY HH:MM:SS YYYY
 +-----------------------------------------------------------------------------------------+
 ```
 
-### 1.2 Anaconda Installation
+### 1.2 Installing Anaconda
 
 Download Anaconda Distribution or Miniconda from official [Anaconda website](https://www.anaconda.com/download/), and install it.
 Verify conda works correctly using the `conda --version` command in your **Anaconda PowerShell Prompt** or **Anaconda Prompt**.
@@ -120,12 +120,12 @@ conda install cudatoolkit=11.0.221 -c conda-forge
 
 ### 2.4 Install `cuDNN`
 
-Next, Search for a compatible `cudnn` version. Version **8.0.5.39** should be available.
+Next, search for a compatible `cudnn` version. Version **8.0.5.39** should be available.
 ```
 conda search cudnn -c conda-forge 
 ```
 
-Install it sing:
+Install it using:
 ``` =
 conda install cudnn= 8.0.5.39 -c conda-forge 
 ```
