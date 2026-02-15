@@ -154,7 +154,7 @@ conda activate tf2
 python
 ```
 
-Run the follow script:
+Run the following script:
 ```Python =
 import tensorflow as tf
 tf.test.gpu_device_name()
