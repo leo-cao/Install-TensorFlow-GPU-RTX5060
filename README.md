@@ -14,7 +14,7 @@ This article describes how to install TensorFlow-GPU on Windows 11 with **NVIDIA
 - **Software:**
   - **OS:** Windows 11 64-bit
   - **IDE:** Anaconda
-  - **Language:** Python 3.7 (even though the Python version 3.7 is old, it is compatible with Tensorflow-GPU 2.4.0 on Windows 11)
+  - **Language:** Python 3.7 (even though the Python version 3.7 is old, it is compatible with Tensorflow-GPU 2.4.0 on Windows 11.)
 
 ## 1. Installation Preparation
 
