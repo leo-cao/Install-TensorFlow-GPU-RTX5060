@@ -2,7 +2,7 @@
 
 > By Leo Cao | Version 1.0 | February 15, 2026
 
-This articel describes how to install TensorFlow-GPU on Windows 11 with **NVIDIA GeForce RTX 5060** by Anaconda distribution.
+This article describes how to install TensorFlow-GPU on Windows 11 with **NVIDIA GeForce RTX 5060** by Anaconda distribution.
 
 ## 0. Installation Environment
 - **Hardware:**
@@ -21,10 +21,10 @@ This articel describes how to install TensorFlow-GPU on Windows 11 with **NVIDIA
 ### 1.1 Installing GPU Drivers
 
 Download the appropriate NVIDIA drivers from the official [NVIDIA website](https://www.nvidia.com/en-us/drivers/), Generally, you should choose one of the following based on your primary use case:
-- **GeForce Game Ready Driver:** OPtimized for the latest games.
-- **NVIDIA Studio Driver:** Optimized for stability in creative and scienctific applications (often preferred for Deep Learning).
+- **GeForce Game Ready Driver:** Optimized for the latest games.
+- **NVIDIA Studio Driver:** Optimized for stability in creative and specific applications (often preferred for Deep Learning).
   
-After intallation, verify the drivers are functioning properly using the `nvidia-smi` command in your terminal (Command Prompt):
+After installation, verify the drivers are functioning properly using the `nvidia-smi` command in your terminal (Command Prompt):
 
 
 ``` =
@@ -58,7 +58,7 @@ WEEKDAY MONTH DAY HH:MM:SS YYYY
 ### 1.2 Anaconda Installation
 
 Download Anaconda Distribution or Miniconda from official [Anaconda website](https://www.anaconda.com/download/), and install it.
-Verify conda works correctly using the `conda --version` command in your **Ananconda PowerShell Prompt** or **Anaconda Prompt**.
+Verify conda works correctly using the `conda --version` command in your **Anaconda PowerShell Prompt** or **Anaconda Prompt**.
 ``` =
 conda --version
 ```
@@ -132,7 +132,7 @@ conda install cudnn= 8.0.5.39 -c conda-forge
 
 ### 2.5 Install `TensorFlow-GPU`
 
-Install the specific TensorFlow whell file sing `pip`.
+Install the specific TensorFlow wheel file using `pip`.
 > **Note:** This example is an Aliyn mirror for faster download speeds in certain regions.
 
 ``` =
@@ -141,12 +141,12 @@ pip install https://mirrors.aliyun.com/pypi/packages/ea/9a/68f5b2dad5293a505d7d6
 
 ## 3. Verification
 
-First, Verify that the installed versions of `cudatoolkit`, `cudnn` and `tensorflow_gpu` align with the reqirements in Step 2.1:
+First, verify that the installed versions of `cudatoolkit`, `cudnn` and `tensorflow_gpu` align with the requirements in Step 2.1:
 ```
 conda list
 ```
 
-Then, verify GPU visibility within Python in the virtal environment `tf2`:
+Then, verify GPU visibility within Python in the virtual environment `tf2`:
 ``` =
 conda activate tf2
 ```
