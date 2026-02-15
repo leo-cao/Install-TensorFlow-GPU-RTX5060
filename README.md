@@ -133,7 +133,7 @@ conda install cudnn= 8.0.5.39 -c conda-forge
 ### 2.5 Install `TensorFlow-GPU`
 
 Install the specific TensorFlow whell file sing `pip`.
-> **Note:** This example es an Aliyn mirror for faster download speeds in certain regions.
+> **Note:** This example is an Aliyn mirror for faster download speeds in certain regions.
 
 ``` =
 pip install https://mirrors.aliyun.com/pypi/packages/ea/9a/68f5b2dad5293a505d7d66f47ee9be4061fff0b88511aa5a1b38941a12d5/tensorflow_gpu-2.4.0-cp37-cp37m-win_amd64.whl
