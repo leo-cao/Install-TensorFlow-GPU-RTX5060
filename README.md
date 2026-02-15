@@ -140,7 +140,7 @@ pip install https://mirrors.aliyun.com/pypi/packages/ea/9a/68f5b2dad5293a505d7d6
 
 ```
 
-### 2.6 Verification
+## 3. Verification
 
 First, Verify that the installed versions of `cudatoolkit`, `cudnn` and `tensorflow_gpu` align with the reqirements in Step 2.1:
 ```
