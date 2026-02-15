@@ -55,9 +55,9 @@ WEEKDAY MONTH DAY HH:MM:SS YYYY
 +-----------------------------------------------------------------------------------------+
 ```
 
-### 1.2 Anaconda 
+### 1.2 Anaconda Installation
 
-Downlaod Anaconda Distribution or Miniconda from official [Anaconda website](https://www.anaconda.com/download/), and install it.
+Download Anaconda Distribution or Miniconda from official [Anaconda website](https://www.anaconda.com/download/), and install it.
 Verify conda works correctly using the `conda --version` command in your **Ananconda PowerShell Prompt** or **Anaconda Prompt**.
 ``` =
 conda --version
