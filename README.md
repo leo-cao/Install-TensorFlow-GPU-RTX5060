@@ -22,7 +22,7 @@ This article describes how to install TensorFlow-GPU on Windows 11 with **NVIDIA
 
 Download the appropriate NVIDIA drivers from the official [NVIDIA website](https://www.nvidia.com/en-us/drivers/), Generally, you should choose one of the following based on your primary use case:
 - **GeForce Game Ready Driver:** Optimized for the latest games.
-- **NVIDIA Studio Driver:** Optimized for stability in creative and specific applications (often preferred for Deep Learning).
+- **NVIDIA Studio Driver:** Optimized for stability in creative and scientific applications (often preferred for Deep Learning).
   
 After installation, verify the drivers are functioning properly using the `nvidia-smi` command in your terminal (Command Prompt):
 
