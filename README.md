@@ -57,7 +57,7 @@ WEEKDAY MONTH DAY HH:MM:SS YYYY
 
 ### 1.2 Installing Anaconda
 
-Download Anaconda Distribution or Miniconda from official [Anaconda website](https://www.anaconda.com/download/), and install it.
+Download Anaconda Distribution or Miniconda from the official [Anaconda website](https://www.anaconda.com/download/), and install it.
 Verify conda works correctly using the `conda --version` command in your **Anaconda PowerShell Prompt** or **Anaconda Prompt**.
 ``` =
 conda --version
@@ -73,7 +73,7 @@ conda 26.1.0
 
 ### 2.1 Check TensorFlow Capability 
 
-Before proceeding, verify tested build configurations on official [TensorFlow website](https://www.tensorflow.org/install/source_windows). For this setup, we are installing`tensorflow_gpu==2.4.0`.
+Before proceeding, verify tested build configurations on the official [TensorFlow website](https://www.tensorflow.org/install/source_windows). For this setup, we are installing`tensorflow_gpu==2.4.0`.
 
 |Version | Python version | Compiler | Build tools | cuDNN | CUDA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
