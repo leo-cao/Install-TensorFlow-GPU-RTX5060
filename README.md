@@ -127,7 +127,7 @@ conda search cudnn -c conda-forge
 
 Install it using:
 ``` =
-conda install cudnn= 8.0.5.39 -c conda-forge 
+conda install cudnn=8.0.5.39 -c conda-forge 
 ```
 
 ### 2.5 Install `TensorFlow-GPU`
